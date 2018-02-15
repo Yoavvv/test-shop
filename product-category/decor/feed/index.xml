@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Decor &#8211; TestShop</title>
-	<atom:link href="/https://yoavvv.github.io/test-shop/product-category/decor/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://yoavvv.github.io/test-shop</link>
+	<atom:link href="/http://yoavvv.github.io/test-shop/product-category/decor/feed/" rel="self" type="application/rss+xml" />
+	<link>/http://yoavvv.github.io/test-shop</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:22:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,16 +19,16 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>WordPress Pennant</title>
-		<link>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/</link>
-		<comments>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/#comments</comments>
+		<link>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/</link>
+		<comments>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/#comments</comments>
 		<pubDate>Sun, 11 Feb 2018 10:04:02 +0000</pubDate>
 		<dc:creator><![CDATA[Yoav]]></dc:creator>
 		
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/product/import-placeholder-for-89/</guid>
+		<guid isPermaLink="false">/http://yoavvv.github.io/test-shop/product/import-placeholder-for-89/</guid>
 		<description><![CDATA[This is an external product.]]></description>
 				<content:encoded><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-<p><a href="/https://yoavvv.github.io/test-shop/product/wordpress-pennant/" rel="nofollow">Source</a></p>]]></content:encoded>
-			<wfw:commentRss>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/feed/</wfw:commentRss>
+<p><a href="/http://yoavvv.github.io/test-shop/product/wordpress-pennant/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 	</channel>

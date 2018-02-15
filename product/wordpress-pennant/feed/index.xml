@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comments on: WordPress Pennant</title>
-	<atom:link href="/https://yoavvv.github.io/test-shop/product/wordpress-pennant/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/</link>
+	<atom:link href="/http://yoavvv.github.io/test-shop/product/wordpress-pennant/feed/" rel="self" type="application/rss+xml" />
+	<link>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:40:38 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -16,10 +16,10 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>By: Yoav</title>
-		<link>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/#comment-2</link>
+		<link>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/#comment-2</link>
 		<dc:creator><![CDATA[Yoav]]></dc:creator>
 		<pubDate>Mon, 12 Feb 2018 11:19:49 +0000</pubDate>
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/product/import-placeholder-for-89/#comment-2</guid>
+		<guid isPermaLink="false">/http://yoavvv.github.io/test-shop/product/import-placeholder-for-89/#comment-2</guid>
 		<description><![CDATA[hgfjy]]></description>
 		<content:encoded><![CDATA[<p>hgfjy</p>
 ]]></content:encoded>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>TestShop</title>
-	<atom:link href="/https://yoavvv.github.io/test-shop/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://yoavvv.github.io/test-shop</link>
+	<atom:link href="/http://yoavvv.github.io/test-shop/feed/" rel="self" type="application/rss+xml" />
+	<link>/http://yoavvv.github.io/test-shop</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:22:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,17 +19,17 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/https://yoavvv.github.io/test-shop/hello-world/</link>
-		<comments>/https://yoavvv.github.io/test-shop/hello-world/#comments</comments>
+		<link>/http://yoavvv.github.io/test-shop/hello-world/</link>
+		<comments>/http://yoavvv.github.io/test-shop/hello-world/#comments</comments>
 		<pubDate>Thu, 08 Feb 2018 11:51:06 +0000</pubDate>
 		<dc:creator><![CDATA[Yoav]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/?p=1</guid>
+		<guid isPermaLink="false">/http://yoavvv.github.io/test-shop/?p=1</guid>
 		<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 				<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-<p><a href="/https://yoavvv.github.io/test-shop/hello-world/" rel="nofollow">Source</a></p>]]></content:encoded>
-			<wfw:commentRss>/https://yoavvv.github.io/test-shop/hello-world/feed/</wfw:commentRss>
+<p><a href="/http://yoavvv.github.io/test-shop/hello-world/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>/http://yoavvv.github.io/test-shop/hello-world/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 	</channel>

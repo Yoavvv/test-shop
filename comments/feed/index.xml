@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comments for TestShop</title>
-	<atom:link href="/https://yoavvv.github.io/test-shop/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://yoavvv.github.io/test-shop</link>
+	<atom:link href="/http://yoavvv.github.io/test-shop/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/http://yoavvv.github.io/test-shop</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:40:38 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -16,20 +16,20 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>Comment on WordPress Pennant by Yoav</title>
-		<link>/https://yoavvv.github.io/test-shop/product/wordpress-pennant/#comment-2</link>
+		<link>/http://yoavvv.github.io/test-shop/product/wordpress-pennant/#comment-2</link>
 		<dc:creator><![CDATA[Yoav]]></dc:creator>
 		<pubDate>Mon, 12 Feb 2018 11:19:49 +0000</pubDate>
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/product/import-placeholder-for-89/#comment-2</guid>
+		<guid isPermaLink="false">/http://yoavvv.github.io/test-shop/product/import-placeholder-for-89/#comment-2</guid>
 		<description><![CDATA[hgfjy]]></description>
 		<content:encoded><![CDATA[<p>hgfjy</p>
 ]]></content:encoded>
 	</item>
 	<item>
 		<title>Comment on Hello world! by A WordPress Commenter</title>
-		<link>/https://yoavvv.github.io/test-shop/hello-world/#comment-1</link>
+		<link>/http://yoavvv.github.io/test-shop/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Thu, 08 Feb 2018 11:51:06 +0000</pubDate>
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/http://yoavvv.github.io/test-shop/?p=1#comment-1</guid>
 		<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
 Commenter avatars come from &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
