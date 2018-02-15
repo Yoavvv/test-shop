@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html>
-
-<head lang="en">
-    <base href="/">
-    <title>Angular Boilerplate</title>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="app/shared/css/styles.css" rel="stylesheet" />
-    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-
-    <!-- Polyfill(s) for older browsers -->
-    <script src="node_modules/core-js/client/shim.min.js"></script>
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-
-    <!-- Configure SystemJS -->
-    <script src="systemjs.config.js"></script>
-    <script>
-      System.import('app').catch(function(err){ console.error(err);
-      });
-    </script>
+    <title>clothing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="site.js"></script>
 </head>
-
 <body>
-    <ng-app>Loading App...</ng-app>
+   <h1>Welcome home page</h1>
+   <br />
+   <br />
+   <h1>Products</h1>  
+    
+    <table id="tableClothing" border="1" align="center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+    </table>
+    
+    <hr/>
+    
+    <label for="textBoxProductID">Enter product id: </label>
+    <input id="textBoxProductID" type="number" />
+    <input id="buttonShow" type="button" value="Show" />
+    <br/>
+    <br/>
+    <span id="spanProductName">Product Name: ____</span>
+    <br/>
+    <br/>
+    <span id="spanDescription">Unit Price: ____</span>
+    <br/>
+    <br/>
+    <span id="spanSize">Units in Stock: ____</span>
+    <br/>
+    <br/>
+    <span id="spanPrice">Units on Order: ____</span>
+    <br/>
+    <br/>
+    
+    <form action="/addNewCloth" method="post">
+        <input type="text" name="newcloth" placeholder="name" />
+        <button>I made a new cloth!!!</button>
+    </form>
+    
 </body>
-
 </html>

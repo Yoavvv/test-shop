@@ -1,0 +1,37 @@
+[
+  {
+    "code": 12,
+    "name": "shirt",
+    "description": "cool",
+    "size": "l",
+    "price": 200
+  },
+  {
+    "code": 13,
+    "name": "pants",
+    "description": "ugly",
+    "size": "m",
+    "price": 40
+  },
+  {
+    "code": 14,
+    "name": "sport",
+    "description": "sweat",
+    "size": "xl",
+    "price": 600
+  },
+  {
+    "code": 15,
+    "name": "school",
+    "description": "expensive",
+    "size": "sm",
+    "price": 900
+  },
+  {
+    "code": 16,
+    "name": "socks",
+    "description": "warm",
+    "size": "xs",
+    "price": 75
+  }
+]
