@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; TestShop</title>
-	<atom:link href="/https://yoavvv.github.io/test-shop/product-category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://yoavvv.github.io/test-shop</link>
+	<atom:link href="http://https://yoavvv.github.io/test-shop/product-category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://https://yoavvv.github.io/test-shop</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:22:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,15 +19,15 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>Test Product</title>
-		<link>/https://yoavvv.github.io/test-shop/product/test-product/</link>
-		<comments>/https://yoavvv.github.io/test-shop/product/test-product/#respond</comments>
+		<link>http://https://yoavvv.github.io/test-shop/product/test-product/</link>
+		<comments>http://https://yoavvv.github.io/test-shop/product/test-product/#respond</comments>
 		<pubDate>Tue, 13 Feb 2018 12:11:53 +0000</pubDate>
 		<dc:creator><![CDATA[Yoav]]></dc:creator>
 		
-		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/?post_type=product&#038;p=135</guid>
+		<guid isPermaLink="false">http://https://yoavvv.github.io/test-shop/?post_type=product&#038;p=135</guid>
 		<description><![CDATA[]]></description>
 				<content:encoded><![CDATA[]]></content:encoded>
-			<wfw:commentRss>/https://yoavvv.github.io/test-shop/product/test-product/feed/</wfw:commentRss>
+			<wfw:commentRss>http://https://yoavvv.github.io/test-shop/product/test-product/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

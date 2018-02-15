@@ -28,8 +28,8 @@
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -320,8 +320,8 @@
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .pho-tik-system .glyphicon {
   position: relative;
@@ -2028,7 +2028,7 @@ input:focus,textarea:focus,select:focus,button:focus,a:focus {
     font-weight: 600;
 }
 .merge-tik-popup .merge-tik-into input[type="search"] {
-    background: #fff url(/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/search.png) no-repeat left 7px center;
+    background: #fff url(http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/search.png) no-repeat left 7px center;
     border: 1px solid #d1dde1;
     margin-top: 10px;
     padding: 5px 10px 5px 28px;
@@ -2235,7 +2235,7 @@ a.phoen_ticket_files {
 }
 
 .add-note-text ul#mail-format  {
-    background: url(/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/gear.png) no-repeat;
+    background: url(http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/gear.png) no-repeat;
     position: absolute;
     height: 16px;
     width: 16px;
@@ -2303,7 +2303,7 @@ a.phoen_ticket_files {
     display: inline-block;
 }
 .pnt-send-option .assign-to select {
-    background: #F7FAFE url(/https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/dropdown.png) no-repeat 90px;
+    background: #F7FAFE url(http://https://yoavvv.github.io/test-shop/wp-content/plugins/support-ticket-system-by-phoeniixx/assets/images/dropdown.png) no-repeat 90px;
     border: 1px solid #ccc;
     height: 32px;
     vertical-align: middle;
