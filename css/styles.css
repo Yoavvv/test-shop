@@ -1,0 +1,14 @@
+/* General Styles */
+
+.pager li .active_link {
+    background: black !important;
+}
+
+body {
+    background-image: url("../images/light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+    
+}
+
