@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comments on: Hoodie</title>
-	<atom:link href="http://https://yoavvv.github.io/test-shop/product/hoodie/feed/" rel="self" type="application/rss+xml" />
-	<link>http://https://yoavvv.github.io/test-shop/product/hoodie/</link>
+	<atom:link href="/https://yoavvv.github.io/test-shop/product/hoodie/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://yoavvv.github.io/test-shop/product/hoodie/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:40:38 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>

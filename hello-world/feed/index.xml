@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comments on: Hello world!</title>
-	<atom:link href="http://https://yoavvv.github.io/test-shop/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>http://https://yoavvv.github.io/test-shop/hello-world/</link>
+	<atom:link href="/https://yoavvv.github.io/test-shop/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://yoavvv.github.io/test-shop/hello-world/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 13 Feb 2018 14:40:38 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -16,10 +16,10 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>By: A WordPress Commenter</title>
-		<link>http://https://yoavvv.github.io/test-shop/hello-world/#comment-1</link>
+		<link>/https://yoavvv.github.io/test-shop/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Thu, 08 Feb 2018 11:51:06 +0000</pubDate>
-		<guid isPermaLink="false">http://https://yoavvv.github.io/test-shop/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/https://yoavvv.github.io/test-shop/?p=1#comment-1</guid>
 		<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
 Commenter avatars come from &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
