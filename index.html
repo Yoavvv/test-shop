@@ -1,51 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>clothing</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="site.js"></script>
-</head>
-<body>
-   <h1>Welcome home page</h1>
-   <br />
-   <br />
-   <h1>Products</h1>  
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<title>My Task Board</title>
+        <link rel="stylesheet" href="site.css" />
+        <script src="site.js"></script>
     
-    <table id="tableClothing" border="1" align="center">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Size</th>
-            <th>Price</th>
-        </tr>
-    </table>
+    </head>
+     <body onload="init()">
+         <div id="parentContainer">
+         <div id="title"></div>
+          <div id="createTaskContainer">	
+           <div class="taskInfo">
+					
+     <span class="outsideText">Date: </span><input type="date" name="TaskDate" id="taskDate">
+     <span class="outsideText">Time: </span><input type="time" name="TaskTime" id="taskTime">
+          </div>
+         <div class="taskInfo">
+					
+     <span class="outerText">Description: </span>
+     <textarea name="description" id="description" rows="4" cols="40"></textarea>
+         </div>
+         <div class="taskInfo">
+     <input type="button" name="submit" value="Add task to the board" id="submit" onclick="submitTask()">
+         </div>
+         <div class="message" id="validateText"></div>
+         </div>	
+         <div id="tasksBox">
+			</div>   
+         </div>
     
-    <hr/>
-    
-    <label for="textBoxProductID">Enter product id: </label>
-    <input id="textBoxProductID" type="number" />
-    <input id="buttonShow" type="button" value="Show" />
-    <br/>
-    <br/>
-    <span id="spanProductName">Product Name: ____</span>
-    <br/>
-    <br/>
-    <span id="spanDescription">Unit Price: ____</span>
-    <br/>
-    <br/>
-    <span id="spanSize">Units in Stock: ____</span>
-    <br/>
-    <br/>
-    <span id="spanPrice">Units on Order: ____</span>
-    <br/>
-    <br/>
-    
-    <form action="/addNewCloth" method="post">
-        <input type="text" name="newcloth" placeholder="name" />
-        <button>I made a new cloth!!!</button>
-    </form>
-    
-</body>
+    </body>
+
 </html>
