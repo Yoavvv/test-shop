@@ -1,73 +1,54 @@
-<?php require_once "includes/db.php";?>
-<?php require_once "includes/header.php";?>
-<?php require_once "./admin/functions.php";?>
+<?php
+/**
+ * The template for displaying search results pages.
+ *
+ * @package Bootstrap to WordPress
+ */
 
+get_header(); ?>
 
-<!-- Navigation -->
-<?php require_once "includes/navigation.php";?>
+	<section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
+		<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'bootstrap2wordpress' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+	</section>
 
-<!-- Page Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
+	<div class="container">
+		<div id="primary" class="row">
+			
+			<main id="content" class="col-sm-8">
 
-            <?php 
-            // If submit search button pressed
-            if(isset($_POST['submit'])) {
+			<?php if ( have_posts() ) : ?>
+	
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+	
+					<?php
+					/**
+					 * Run the loop for the search to output the results.
+					 * If you want to overload this in a child theme then include a file
+					 * called content-search.php and that will be used instead.
+					 */
+					get_template_part( 'content', 'search' );
+					?>
+	
+				<?php endwhile; ?>
+	
+				<?php bootstrap2wordpress_paging_nav(); ?>
+	
+			<?php else : ?>
+	
+				<?php get_template_part( 'content', 'none' ); ?>
+	
+			<?php endif; ?>
+		
+			</main><!-- #content -->
+			
+			<!-- SIDEBAR
+			================================================== -->
+			<aside class="col-sm-4">
+			<?php get_sidebar(); ?>
+			</aside>
+			
+		</div><!-- #primary -->
+	</div><!-- .container -->
 
-                $search = escape($_POST['search']);
-                
-                // Query for getting all course tags similar to search keyword 
-                $query = "SELECT * FROM courses WHERE course_tags LIKE '%$search%' ";
-                $searchQuery = mysqli_query($connection, $query);
-
-                if(!$searchQuery) {
-                    die("QUERY FAILED" . mysqli_error($connection));
-                }
-
-                $count = mysqli_num_rows($searchQuery);
-                
-                // If found any -> get course details to display
-                if($count == 0) {
-                    echo "<h1> NO RESULT </h1>";
-                } else {
-
-                while($row = mysqli_fetch_assoc($searchQuery)) {
-                    $course_name = $row['course_name'];
-                    $course_description = $row['course_description'];
-                    $image_fileName = $row['image_fileName'];
-                    $course_tags = $row['course_tags'];
-                    $course_id = $row['course_id'];
-
-                    ?>
-
-                    <h2>
-                        <a href="course.php?c_id=<?php echo $course_id; ?>"><?php echo $course_name ?></a>
-                    </h2>
-                        
-                    <h3 class="page-header">Course Tags --> <small><?php echo $course_tags; ?></small></h3>
-
-                    <img class="img-responsive" src="images/<?php echo $image_fileName; ?>" alt="">
-                    <p><?php echo $course_description ?></p>
-                    <a class="btn btn-primary" href="course.php?c_id=<?php echo $course_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
-                    <hr>
-
-
-<?php           } 
-
-
-                }
-            }
-?>
-
-        </div>
-
-        <!-- Course Sidebar -->
-        <?php require_once "includes/sidebar.php";?>
-
-    </div>
-    <hr>
-        
-<?php require_once "includes/footer.php";?>
-
+<?php get_footer(); ?>
